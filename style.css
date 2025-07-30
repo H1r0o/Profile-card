@@ -1,3 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
     margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.profilepic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #6265f8;
+}
+
+#maincontainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+
+}
+
+#profileCard {
+    max-width: 600px;
+    min-width: 200px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.2);
+
+}
+
+#icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#icons .mediaBtn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #6265f8;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#btnContainer {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#btnContainer button {
+    background-color: #6265f8;
+    padding: 10px;
+    height: 50px;
+    width: 120px;
+    font-weight: 600;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    text-align: center;
+}
+
+#btnContainer button:hover,
+#icons .mediaBtn:hover {
+    background-color: #383aad;
+}
+
+#analisys {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    font-size: 20px;
+}
+
+#analisys .alalisysItem {
+    align-items: center;
+    border-right: 2px solid rgba(0, 0, 0, 0.247);
+    padding: 10px;
+    text-align: center;
+}
+
+#analisys .alalisysItem:last-child {
+    border: none;
+}
+
+.alalisysItem {
+    text-align: center;
 }
